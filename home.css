@@ -1,0 +1,307 @@
+ html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+ }
+ .bod{
+  background-color:#FFF7F9;
+  
+ }
+ /* Pastel background */
+.pastel-navbar {
+  background: linear-gradient(90deg, #fcefee, #f9e0d9);
+  border-bottom: 2px solid #e6b8af;
+  padding: 12px 0;
+}
+
+/* Brand */
+.pastel-navbar .navbar-brand {
+  color: #b76e79 !important;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+/* Nav links */
+.pastel-navbar .nav-link {
+  color: #7a4a4f !important;
+  margin-left: 18px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Soft underline hover */
+.pastel-navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #d9a7a1;
+  left: 0;
+  bottom: -4px;
+  transition: 0.3s;
+}
+
+.pastel-navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+.pastel-navbar .nav-link:hover {
+  color: #b76e79 !important;
+}
+
+/* Icons */
+.pastel-icons i {
+  color: #b76e79;
+  font-size: 18px;
+  margin-left: 14px;
+  cursor: pointer;
+}
+
+/* Mobile toggle */
+.navbar-toggler {
+  border-color: #b76e79;
+}
+.navbar-toggler-icon {
+  filter: invert(0.6);
+}
+.art{
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size:60px;
+ top:5%;
+}
+
+.but{
+  background-color:transparent;
+  padding:10px;
+  border-radius: 20px;
+  width:17%;
+  border:solid 2px #60462f;
+ color:white;
+ 
+  box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.15);
+}
+.but:hover{
+  background-color:#60462f;
+  color:white;
+  border:solid 2px #60462f;
+} 
+
+
+.img-main, .text-main{
+  height:700px;
+
+}
+.img-main{
+  position:relative;
+}
+.text-main{
+background-color: #eec9c1;
+}
+
+.img1{
+  position: absolute;
+  width:98%;
+  height:49.50%;
+  top:-0.10%;
+}
+.img2{
+  position:absolute;
+  height:50%;
+  width:98%;
+  top:50%;
+}
+
+
+.brac:hover{
+  cursor: pointer;
+   transform: scale(1.1);
+}
+
+.line1{
+ font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: normal; 
+ font-size: 75px;
+ margin-top: 20%;
+  margin-left: 15%;
+ 
+}
+.line2{
+font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 75px;
+ margin-top: 3%;
+  margin-left: 15%;
+}
+.line3{
+margin-top: 5%;
+  font-size: 20px;
+ margin-left: 15%;
+ margin-right: 5%;
+}
+.shop{
+   background-color:#60462f;
+  padding:10px;
+  border-radius: 20px;
+  width:23%;
+  border:none;
+ color:white;
+  margin-left: 15%;
+ margin-top: 4%;
+  box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.15);
+}
+.shop:hover{
+  background-color:transparent;
+  color:#60462f;
+  border:solid 2px #60462f;
+}
+.ring{
+margin-top: 83%;
+text-align: center;
+}
+.para{
+  text-align: center;
+  margin-top: -1%;
+}
+.card:hover{
+   cursor:pointer;
+  box-shadow: 
+    0 0 0 6px rgba(181, 137, 96, 0.12),
+    0 0 0 12px rgba(210, 180, 140, 0.10),
+    0 0 25px rgba(160, 120, 80, 0.25);
+  transform: scale(1.03);
+
+ 
+}
+
+.head2{
+ 
+color:sienna;
+font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 70px;
+}
+.head3{
+font-size: 20px;
+font-weight: 350;
+}
+.head4{
+ margin-top: 10%;
+ color:rgb(209, 173, 107);
+ line-height: 0%;
+ font-size: 25px;
+
+}
+.back{
+  height: 120vh;
+  background-image:url("./imageee/AASHVI JeweLS aashi.png");
+background-size:contain;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+.mid1{
+  margin-top: -14%;
+font-family: "Playfair Display", serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 50px;
+} 
+.two{
+  background-color: #60462f;
+  color:white;
+  padding:10px;
+  border-radius: 20px;
+  width:100px;
+  text-align: center;
+ margin-left: 5%;
+}
+
+.two:hover{
+  background-color:thistle;
+  color:#60462f;
+  border:solid 2px #60462f;
+}
+.two:hover::after{
+   background-color:thistle;
+  color:#60462f;
+ 
+}
+.banner{
+  background-image: url("./imageee/banner.jpg");
+   height: 120vh;
+   background-size:contain;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+.the{
+  background-color: #fcefee;
+  left: 5%;
+  right: 5%;
+  text-align: center;
+  color: #60462f;
+  font-family: "Poiret One", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.4;
+ margin-top: 1%;
+}
+.about-us{
+ 
+  left: 5%;
+  right: 5%;
+  text-align: center;
+  color: #60462f;
+ font-size: 20px;
+  line-height: 1.4;
+  margin-top: -12%;
+}
+.mid2{
+  margin-top: 5%;
+  color:#60462f;
+}
+.mid3{
+  color:#b76e79;
+  font-family: "Playfair Display", serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 60px;
+}
+.mid4{
+  font-size: larger;
+}
+.trust-us{
+  left: 5%;
+  right: 5%;
+  text-align: center;
+  color: #60462f;
+  
+  font-size: 17px;
+  line-height: 1.4;
+} 
+.this{
+ 
+  text-align: center;
+  color: #60462f;
+  font-family: "Poiret One", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+@media only screen and (min-width:480px){
+  
+  .one{
+  top:1% ;
+   right: 9%;
+   width:42%;
+   height:30%;
+}
+
+}
